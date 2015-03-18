@@ -1,0 +1,75 @@
+/* 
+
+Imágen fondo pantalla completa responsive proporcional.
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: url(img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+Delay para animate.css
+   
+-webkit-animation-delay: 0.5s;
+-moz-animation-delay: 0.5s;
+animation-delay: 0.5s;
+
+Transiciones
+
+-webkit-transition: all 0.2s;
+-moz-transition: all 0.2s;
+transition: all 0.2s;
+
+Selector
+
+#menuitem:nth-of-type(1) {
+    background-color: red;
+}
+
+Fully centered Div
+
+#centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -50px;
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+/*   
+
+/* #Tablet Portrait */
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+    }
+/* #Mobile (Landscape) */
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+    }
+/*  #Mobile Portrait */
+    @media only screen and (max-width: 767px) {
+    }
+
+html,body {
+    background: url(../images/1.png) repeat;
+}
+
+.container{
+    background-color: #FFF;
+}
+
+.navbar {
+    margin-top: 20px;
+}
+
+.col-centered{
+    float: none !important;
+    margin: 0 auto !important;
+}
